@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		DCA5B0B22C29775E00D3F8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B0B12C29775E00D3F8FA /* AppDelegate.swift */; };
 		DCA5B0B42C29775E00D3F8FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B0B32C29775E00D3F8FA /* SceneDelegate.swift */; };
-		DCA5B0B62C29775E00D3F8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B0B52C29775E00D3F8FA /* ViewController.swift */; };
-		DCA5B0B92C29775E00D3F8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA5B0B72C29775E00D3F8FA /* Main.storyboard */; };
 		DCA5B0BB2C29775F00D3F8FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA5B0BA2C29775F00D3F8FA /* Assets.xcassets */; };
 		DCA5B0BE2C29775F00D3F8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA5B0BC2C29775F00D3F8FA /* LaunchScreen.storyboard */; };
+		DCA5B0C92C297AD900D3F8FA /* PlayMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B0C72C297AD900D3F8FA /* PlayMusicViewController.swift */; };
+		DCA5B0CA2C297AD900D3F8FA /* PlayMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA5B0C82C297AD900D3F8FA /* PlayMusicViewController.xib */; };
+		DCA5B0CE2C29811D00D3F8FA /* beat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCA5B0CD2C29811D00D3F8FA /* beat.mp3 */; };
+		DCA5B0D02C2981AB00D3F8FA /* lyrics.xml in Resources */ = {isa = PBXBuildFile; fileRef = DCA5B0CF2C2981AB00D3F8FA /* lyrics.xml */; };
+		DCA5B0D32C2991FB00D3F8FA /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B0D22C2991FB00D3F8FA /* Double+.swift */; };
+		DCA5B0D72C29AB8200D3F8FA /* XMLDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B0D62C29AB8200D3F8FA /* XMLDataParser.swift */; };
+		DCA5B0DA2C29AE1400D3F8FA /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = DCA5B0D92C29AE1400D3F8FA /* XMLCoder */; };
+		DCA5B0DE2C29B22C00D3F8FA /* LyricsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B0DC2C29B22C00D3F8FA /* LyricsTableViewCell.swift */; };
+		DCA5B0DF2C29B22C00D3F8FA /* LyricsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA5B0DD2C29B22C00D3F8FA /* LyricsTableViewCell.xib */; };
+		DCA5B0E12C29B51E00D3F8FA /* LyricsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B0E02C29B51E00D3F8FA /* LyricsLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DCA5B0AE2C29775E00D3F8FA /* Karaoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA5B0B12C29775E00D3F8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCA5B0B32C29775E00D3F8FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DCA5B0B52C29775E00D3F8FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DCA5B0B82C29775E00D3F8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCA5B0BA2C29775F00D3F8FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA5B0BD2C29775F00D3F8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA5B0BF2C29775F00D3F8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA5B0C72C297AD900D3F8FA /* PlayMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusicViewController.swift; sourceTree = "<group>"; };
+		DCA5B0C82C297AD900D3F8FA /* PlayMusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayMusicViewController.xib; sourceTree = "<group>"; };
+		DCA5B0CD2C29811D00D3F8FA /* beat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beat.mp3; sourceTree = "<group>"; };
+		DCA5B0CF2C2981AB00D3F8FA /* lyrics.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lyrics.xml; sourceTree = "<group>"; };
+		DCA5B0D22C2991FB00D3F8FA /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
+		DCA5B0D62C29AB8200D3F8FA /* XMLDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDataParser.swift; sourceTree = "<group>"; };
+		DCA5B0DC2C29B22C00D3F8FA /* LyricsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsTableViewCell.swift; sourceTree = "<group>"; };
+		DCA5B0DD2C29B22C00D3F8FA /* LyricsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LyricsTableViewCell.xib; sourceTree = "<group>"; };
+		DCA5B0E02C29B51E00D3F8FA /* LyricsLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA5B0DA2C29AE1400D3F8FA /* XMLCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,78 @@
 		DCA5B0B02C29775E00D3F8FA /* Karaoke */ = {
 			isa = PBXGroup;
 			children = (
+				DCA5B0D52C29AB7200D3F8FA /* Helper */,
+				DCA5B0D12C2991ED00D3F8FA /* Extension */,
+				DCA5B0CC2C29810800D3F8FA /* Lyrics */,
+				DCA5B0CB2C29810100D3F8FA /* Sounds */,
+				DCA5B0C52C297AA500D3F8FA /* Scenes */,
 				DCA5B0B12C29775E00D3F8FA /* AppDelegate.swift */,
 				DCA5B0B32C29775E00D3F8FA /* SceneDelegate.swift */,
-				DCA5B0B52C29775E00D3F8FA /* ViewController.swift */,
-				DCA5B0B72C29775E00D3F8FA /* Main.storyboard */,
 				DCA5B0BA2C29775F00D3F8FA /* Assets.xcassets */,
 				DCA5B0BC2C29775F00D3F8FA /* LaunchScreen.storyboard */,
 				DCA5B0BF2C29775F00D3F8FA /* Info.plist */,
 			);
 			path = Karaoke;
+			sourceTree = "<group>";
+		};
+		DCA5B0C52C297AA500D3F8FA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5B0C62C297AB400D3F8FA /* PlayMusic */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DCA5B0C62C297AB400D3F8FA /* PlayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5B0DB2C29B20C00D3F8FA /* Cell */,
+				DCA5B0C72C297AD900D3F8FA /* PlayMusicViewController.swift */,
+				DCA5B0C82C297AD900D3F8FA /* PlayMusicViewController.xib */,
+			);
+			path = PlayMusic;
+			sourceTree = "<group>";
+		};
+		DCA5B0CB2C29810100D3F8FA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5B0CD2C29811D00D3F8FA /* beat.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DCA5B0CC2C29810800D3F8FA /* Lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5B0CF2C2981AB00D3F8FA /* lyrics.xml */,
+			);
+			path = Lyrics;
+			sourceTree = "<group>";
+		};
+		DCA5B0D12C2991ED00D3F8FA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5B0D22C2991FB00D3F8FA /* Double+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DCA5B0D52C29AB7200D3F8FA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5B0D62C29AB8200D3F8FA /* XMLDataParser.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DCA5B0DB2C29B20C00D3F8FA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5B0DC2C29B22C00D3F8FA /* LyricsTableViewCell.swift */,
+				DCA5B0DD2C29B22C00D3F8FA /* LyricsTableViewCell.xib */,
+				DCA5B0E02C29B51E00D3F8FA /* LyricsLabel.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +162,9 @@
 			dependencies = (
 			);
 			name = Karaoke;
+			packageProductDependencies = (
+				DCA5B0D92C29AE1400D3F8FA /* XMLCoder */,
+			);
 			productName = Karaoke;
 			productReference = DCA5B0AE2C29775E00D3F8FA /* Karaoke.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +193,9 @@
 				Base,
 			);
 			mainGroup = DCA5B0A52C29775E00D3F8FA;
+			packageReferences = (
+				DCA5B0D82C29AE1400D3F8FA /* XCRemoteSwiftPackageReference "XMLCoder" */,
+			);
 			productRefGroup = DCA5B0AF2C29775E00D3F8FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA5B0CA2C297AD900D3F8FA /* PlayMusicViewController.xib in Resources */,
 				DCA5B0BE2C29775F00D3F8FA /* LaunchScreen.storyboard in Resources */,
+				DCA5B0CE2C29811D00D3F8FA /* beat.mp3 in Resources */,
+				DCA5B0DF2C29B22C00D3F8FA /* LyricsTableViewCell.xib in Resources */,
+				DCA5B0D02C2981AB00D3F8FA /* lyrics.xml in Resources */,
 				DCA5B0BB2C29775F00D3F8FA /* Assets.xcassets in Resources */,
-				DCA5B0B92C29775E00D3F8FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +226,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCA5B0B62C29775E00D3F8FA /* ViewController.swift in Sources */,
 				DCA5B0B22C29775E00D3F8FA /* AppDelegate.swift in Sources */,
+				DCA5B0C92C297AD900D3F8FA /* PlayMusicViewController.swift in Sources */,
+				DCA5B0D72C29AB8200D3F8FA /* XMLDataParser.swift in Sources */,
+				DCA5B0D32C2991FB00D3F8FA /* Double+.swift in Sources */,
 				DCA5B0B42C29775E00D3F8FA /* SceneDelegate.swift in Sources */,
+				DCA5B0DE2C29B22C00D3F8FA /* LyricsTableViewCell.swift in Sources */,
+				DCA5B0E12C29B51E00D3F8FA /* LyricsLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DCA5B0B72C29775E00D3F8FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCA5B0B82C29775E00D3F8FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DCA5B0BC2C29775F00D3F8FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -297,7 +381,6 @@
 				INFOPLIST_FILE = Karaoke/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +408,6 @@
 				INFOPLIST_FILE = Karaoke/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +445,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCA5B0D82C29AE1400D3F8FA /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/XMLCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.17.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCA5B0D92C29AE1400D3F8FA /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCA5B0D82C29AE1400D3F8FA /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DCA5B0A62C29775E00D3F8FA /* Project object */;
 }
